@@ -24,8 +24,8 @@
     display: block;
     width: 21px;
     height: 3px;
-    margin: 5px auto;
-    margin-right: 10px;
+    margin: 5px;
+    margin-right: 18px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
@@ -67,12 +67,11 @@
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 4rem;
         flex-direction: column;
-        background-color: #fff;
-        width: 100%;
+        background-color:white;
+        width: 100vw;
         min-height: 50vh;
-        border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
@@ -131,13 +130,24 @@
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
+   
+    .whats-app{
+        display: none;
+     }
 
 }
+@media only screen and (max-width: 420px) {
+
+    .whats-app{
+       display: none;
+    }
+
+}
+
 .whats-app{
     position: absolute;
     position: fixed;
-    top: 560px;
-    right: 60px;
-    font-size: 40px;
+    top: 86vh;
+    left:95vw;
+    font-size: 35px;
 }
