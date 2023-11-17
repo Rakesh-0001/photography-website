@@ -1,0 +1,29 @@
+.home{
+    min-height: 85vh;
+   
+}
+.home-back{
+    min-height: 85vh;
+    background-size: cover;
+    background-position-y:-50;
+    background-image: url('https://images.pexels.com/photos/614077/pexels-photo-614077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+.home-text{
+    
+    padding-top: 80px; 
+}
+.text-back-eff{
+    width: 250px;
+    height: 70px;
+    background-image: url('back.png');
+    background-size: 140px;
+    background-position-y:-30px;
+    background-position-x: 43px;
+    background-repeat: no-repeat;
+    color:black;
+
+}
+
+.port-back{
+    width: 20%;
+}
