@@ -1,5 +1,6 @@
-#preloader{
-    background:white url('Leo\ logo\(black\).png') no-repeat center;
+@media only screen and (min-width: 450px) {
+  #preloader {
+    background: white url('Leo\ logo\(black\).png') no-repeat center;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -8,47 +9,38 @@
     justify-content: center;
     align-items: center;
     background-size: 17%;
-    
-}
-.main{
-  margin: 200px;
-  width: 100%;
-  height: 100%;
-  
-}
 
-.red{
-    background-color:whitesmoke;
+  }
+
+  .main {
+    margin: 200px;
     width: 100%;
-    height: 50vh;
-}
-.green{
+    height: 100%;
+
+  }
+
+  .red {
     background-color: whitesmoke;
     width: 100%;
     height: 50vh;
-   
-}
-.img{
-  width: 100px;
-  height: 200px;
-  background-size: cover;
-  background-image: url('https://images.pexels.com/photos/3777726/pexels-photo-3777726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-}
+  }
 
-@media only screen and (max-width: 420px) {
-
-  #preloader{
-    background:white url('Leo\ logo\(black\).png') no-repeat center;
-    height: 100%;
+  .green {
+    background-color: whitesmoke;
     width: 100%;
-    position: fixed;
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: 17%;
-    display: none;
-    
-}
+    height: 50vh;
+
+  }
+
+  .img {
+    width: 100px;
+    height: 200px;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/3777726/pexels-photo-3777726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+
+
+
+
 
 }
